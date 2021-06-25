@@ -1,0 +1,36 @@
+{
+  "version": "1",
+  "rules": [
+    {
+      "base": "master",
+      "upstream": "privacy-protection-tools:master",
+      "mergeMethod": "hardreset",
+      "mergeUnstable": false,
+      "assignees": [],
+      "reviewers": [],
+      "conflictReviewers": []
+    },
+    {
+      "base": "adlist-maker",
+      "upstream": "privacy-protection-tools:adlist-maker",
+      "mergeMethod": "hardreset",
+      "mergeUnstable": false,
+      "assignees": [],
+      "reviewers": [],
+      "conflictReviewers": []
+    },
+    {
+      "base": "modified",
+      "upstream": "master",
+      "mergeMethod": "merge",
+      "mergeUnstable": false,
+      "assignees": [],
+      "reviewers": [],
+      "conflictReviewers": [
+        "terrytw"
+      ]
+    }
+  ],
+  "label": ":arrow_heading_down: pull",
+  "conflictLabel": "merge-conflict"
+}
